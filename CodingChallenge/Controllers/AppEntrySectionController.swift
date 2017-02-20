@@ -86,10 +86,13 @@ class AppEntrySectionController: IGListSectionController, IGListSectionType {
         
         if let cell = cell as?  AppListCell{
             let rect = CGRect(x: 12, y: 65 + 12, width: 90, height: 90)
-//            let method = TRPushTransitionMethod.blixt(keyView: cell.imageView, to: rect)
             let method = TRCustomPushTransitionMethod.blixt(keyView: cell.imageView, to: rect)
             appListViewController.navigationController?.tr_pushViewController(detailViewController, method: method)
-//            appListViewController.navigationController?.transitioningDelegate = appListViewController
+
+        }
+        else {
+            let method = TRPushTransitionMethod.page
+            appListViewController.navigationController?.tr_pushViewController(detailViewController, method: method)
         }
         
         
