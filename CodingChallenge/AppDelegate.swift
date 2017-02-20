@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let realm = try! Realm()
+        
+        let categories = realm.objects(AppCategory.self)
+        
+        if  categories.count == 0{
+            let allCategory = AppCategory()
+            allCategory.id = ""
+            allCategory.label = NSLocalizedString("All", comment: "")
+            
+            try! realm.write {
+                realm.add(allCategory)
+            }
+        }
+        
         return true
     }
 

@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - IGListKit (2.1.0):
+    - IGListKit/Default (= 2.1.0)
+  - IGListKit/Default (2.1.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (2.1.0)
+  - ObjectMapper (2.2.2)
+  - ObjectMapper+Realm (0.2):
+    - ObjectMapper
+    - RealmSwift
+  - ReachabilitySwift (3)
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
+  - RealmSwift (2.4.2):
+    - Realm (= 2.4.2)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SnapKit (3.1.2)
+  - SwiftDate (4.0.12)
+  - SwiftyJSON (3.1.4)
+  - SWRevealViewController (2.3.0)
+  - TransitionAnimation (4.0.0):
+    - TransitionTreasury (~> 4.0)
+  - TransitionTreasury (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2)
+  - AlamofireImage (~> 3.2)
+  - IGListKit (~> 2.1)
+  - ObjectMapper (~> 2.2)
+  - ObjectMapper+Realm
+  - ReachabilitySwift (~> 3)
+  - RealmSwift (~> 2.1)
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - SwiftDate (~> 4.0)
+  - SwiftyJSON (~> 3.1)
+  - SWRevealViewController
+  - TransitionAnimation
+  - TransitionTreasury
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  ObjectMapper+Realm: 8b45dbfa1be145e311a6f93a306c183d630b40a9
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
+  RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  SwiftDate: 9a50045abc7b3515ede0fbed94705907279177b5
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TransitionAnimation: c397b9ca41ab593b35b1e8f8673df17bae0db20a
+  TransitionTreasury: dcf3fe6e5c740525d9e7d4544af45e6fbfd71c88
+
+PODFILE CHECKSUM: 7bec937448194d673bba4efe8dfc0397143ef0f3
+
+COCOAPODS: 1.2.0
